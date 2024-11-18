@@ -46,12 +46,15 @@ while True:
 ```
 ## OUPUT - ARP
 CLIENT:
+
 ![client exp 3A](https://github.com/user-attachments/assets/04e95c65-9120-4a21-8b77-9f2738c8ce85)
 
 SERVER:
+
 ![server exp 3A](https://github.com/user-attachments/assets/6551e752-2848-4c7a-aca0-0e12a60a29d4)
 
 ## PROGRAM - RARP
+```
 import socket 
 s=socket.socket() 
 s.bind(('localhost',9000)) 
@@ -78,9 +81,11 @@ while True:
 ```
 ## OUPUT -RARP
 CLIENT:
+
 ![client exp 3B](https://github.com/user-attachments/assets/67a3a1cb-66a7-42dd-b9b8-bc53a9a06fc1)
 
 SERVER:
+
 ![server exp 3B](https://github.com/user-attachments/assets/8ff66d20-c801-4c67-929a-6396de1a79e7)
 
 ## RESULT
